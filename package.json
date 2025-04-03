@@ -1,14 +1,14 @@
 {
   "name": "sit737-app",
   "version": "1.0.0",
-  "description": "Dockerized Node.js microservice deployed on Google Cloud Run - SIT737 Task 5.2D",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "Sarthak Dutta",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^5.1.0"
   }
 }

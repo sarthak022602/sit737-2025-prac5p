@@ -7,9 +7,9 @@ app.get('/', (req, res) => {
   res.send('✅ Hello from Dockerized Node.js app running on Cloud Run!');
 });
 
-// Catch-all route for any other path
+// Catch-all route
 app.use((req, res) => {
-  res.status(404).send('❌ Route not found. Please visit /');
+  res.status(404).send('❌ Route not found. Please visit `/`');
 });
 
 app.listen(PORT, () => {

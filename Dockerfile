@@ -8,10 +8,10 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 
-# Copy all files
+# Copy app source
 COPY . .
 
-# Expose the port expected by Cloud Run
+# Expose the port used by the app
 EXPOSE 8080
 
 # Start the app
